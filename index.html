@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DownLoad1S</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <header id="header">
+            <input type="text" class="search" placeholder="Bạn muốn tìm gì ?" oninput=getValue() id="search" ><button class="btn">Tìm kiếm</button>
+                <div class="lisGames font" id="lisGames"></div>
+        </header>
+        <div class="table font">
+            <div class="select windows"><i class="fa-brands fa-windows" style="color: #0072c8;"></i> Windows</div>
+            <div class="select Games"><i class="fa-solid fa-gamepad" style="color: #0072c8;"></i> Games
+            <div class="gameTable">
+                <div class="gameTb font"><i class="fa-solid fa-gamepad" style="color: #0072c8;"></i> Game Windows</div>
+                <div class="gameTb font"><i class="fa-solid fa-gamepad" style="color: #f93e3e;"></i> Game Androids</div>
+                <div class="gameTb font"><i class="fa-solid fa-gamepad" style="color: #f93e3e;"></i> Game IOS</div>
+                <div class="gameTb font"><i class="fa-solid fa-gamepad" style="color: #0072c8;"></i> Game Mac</div>
+            </div>
+            </div>
+            <div class="select Androids"><i class="fa-brands fa-android" style="color: #0072c8;"></i> Androids</div>
+            <div class="select IOS"><i class="fa-brands fa-app-store-ios" style="color: #0072c8;"></i> IOS</div>
+            <div class="select Web"><i class="fa-solid fa-blog" style="color: #0072c8;"></i> Web</div>
+            <div class="select Huongdan"><i class="fa-solid fa-lightbulb" style="color: #0072c8;"></i> Hướng dẫn</div>
+            <div class="select phimhay"><i class="fa-solid fa-film" style="color: #0072c8;"></i> Phim hay</div>
+        </div>
+        <div class="main" id="main">
+            <div id="main1">
+                <!-- <div class="nameG font">Only Up</div>
+            <div class="game">
+                <div class="pic"></div>
+                <div class="info">
+                <div class="infoa star"><i class="fa-solid fa-star" style="color: #5a8ce2;"></i>
+                    <i class="fa-solid fa-star" style="color: #5a8ce2;"></i>
+                    <i class="fa-solid fa-star" style="color: #5a8ce2;"></i>
+                    <i class="fa-solid fa-star" style="color: #5a8ce2;"></i>
+                    <i class="fa-solid fa-star" style="color: #5a8ce2;"></i></div>
+                <div class="infoa date">Ngày: 29.07.2030</div>
+                <div class="infoa require">Yêu cầu:
+                    Windows 8/10/11 (64-bit)</div>
+                    <a href=""><div class="btnDownload fontbold">Download Free Now</div></a>
+                </div>
+            </div>
+            <div class="introduce font">
+                <div class="itd">Giới Thiệu</div>
+                <div class="itd">Cấu hình</div>
+                <div class="itd">Tải về</div>
+            </div>
+            <div class="gioithieu" id="gioithieu"> -->
+                <!-- <div class="topic topic1 fontbold">
+                    Cốt truyện của game Only Up
+                </div>
+                <div class="nd fontfit">
+                    Trong game mô phỏng Only Up Steam, bạn sẽ vào vai một 
+                    thiếu niên Jackie đến từ khu ổ chuột muốn thoát khỏi
+                     cảnh nghèo đói và bắt đầu hành trình tìm hiểu về thế 
+                     giới và bản thân. Thế giới chắc chắn đã phát điên, mặc 
+                     dù nó chưa bao giờ bình thường, nhưng có lẽ bây giờ là 
+                     cơ hội dành cho bạn.
+                </div>
+                <img src="https://i.rada.vn/data/image/2023/05/27/Only-Up-2.jpg" alt="">
+                <div class="nd fontfit">
+                    Khủng hoảng là thời điểm để hành động và thực hiện những bước 
+                    đi quyết đoán, ngoại trừ điều đó thật đáng sợ, bởi vì mỗi bước
+                     đi đều có thể khiến bạn lùi lại. Đôi khi rất khó để chọn đúng 
+                     con đường, nhưng đừng sợ, bạn luôn có thể lặp lại vì chúng ta
+                      học hỏi từ những sai lầm.
+                </div>
+                <img src="https://i.rada.vn/data/image/2023/05/27/Only-Up-3.jpg" alt="">
+                <div class="nd fontfit">
+                    Jackie sẽ phải học được rằng để đến một nơi mới, trước tiên bạn
+                     phải thực hiện một cú nhảy và lên khỏi mặt đất mà không biết điều
+                      gì sẽ xảy ra trong tương lai… Một con người dũng cảm không có mục
+                       tiêu, chỉ có con đường, chủ nghĩa khắc kỷ, sự kiên nhẫn và ý chí 
+                       mạnh mẽ mơi giúp bạn đạt đến đỉnh cao, nhưng điều gì đang chờ đợi
+                        ở trên đó - bạn không bao giờ biết được...
+                </div>
+                <img src="https://i.rada.vn/data/image/2023/05/27/Only-Up-4.jpg" alt="">
+                
+            </div>
+            <div class="cauhinh">
+                <div class="topic fontbold">Cấu hình yêu cầu</div>
+                <div class="topic font">Tối thiểu</div>
+                <ul class="fontfit">
+                    <li>Yêu cầu hệ điều hành và bộ xử lý 64-bit</li>
+                    <li>Hệ điều hành: Windows 8/10/11 (64-Bit)</li>
+                    <li>Bộ vi xử lý: Intel Core [email protected] 3.1 GHz hoặc AMD R5 1600X @ 3.5 GHz hoặc tương đương</li>
+                    <li>Bộ nhớ RAM: 8GB bộ nhớ</li>
+                    <li>Đồ họa: NVIDIA GeForce GTX 1650 hoặc tương đương</li>
+                    <li>DirectX: phát hành 12</li>
+                    <li>Không gian đĩa: 6 GB dung lượng đĩa khả dụng</li>
+                </ul>
+                <div class="topic font">Khuyến khích</div>
+                <ul class="fontfit">
+                    <li>Yêu cầu hệ điều hành và bộ xử lý 64-bit</li>
+                    <li>Hệ điều hành: Windows 8/10/11 (64-Bit)</li>
+                    <li>Bộ vi xử lý: Intel Core i5 10400 3,1 GHz hoặc AMD Ryzen 5 2600x 3,1 GHz</li>
+                    <li>Bộ nhớ RAM: 16GB bộ nhớ</li>
+                    <li>Đồ họa: NVIDIA GeForce RTX 3060 hoặc tương đương</li>
+                    <li>DirectX: phát hành 12</li>
+                    <li>Không gian đĩa: 6 GB dung lượng đĩa khả dụng</li>
+                </ul>
+            </div>
+            <div class="download">
+                <div class="topic fontbold">Tải về</div>
+                <a href=""><div class="btnDownload fontbold">Download Free Now</div></a>
+
+            </div> -->
+            </div>
+            <div class="lienquan">
+                <div class="topic fontbold">Các game liên quan</div>
+                <div class="khogamelq"></div>
+                <!-- <div class="topic fontbold">Các game liên quan</div>
+                <div class="khogamelq">
+                    <div class="gamelq">
+                        <div class="gamelq_pic"></div>
+                        <div class="gamelq_name fontfit">Stekllarium</div>
+                        <div class="gamelq_intro">Khám phá vũ trụ trên máy tính</div>
+                    </div>
+                    <div class="gamelq">
+                        <div class="gamelq_pic"></div>
+                        <div class="gamelq_name fontfit">Stekllarium</div>
+                        <div class="gamelq_intro">Khám phá vũ trụ trên máy tính</div>
+                    </div>
+                    <div class="gamelq">
+                        <div class="gamelq_pic"></div>
+                        <div class="gamelq_name fontfit">Stekllarium</div>
+                        <div class="gamelq_intro">Khám phá vũ trụ trên máy tính</div>
+                    </div>
+                    <div class="gamelq">
+                        <div class="gamelq_pic"></div>
+                        <div class="gamelq_name fontfit">Stekllarium</div>
+                        <div class="gamelq_intro">Khám phá vũ trụ trên máy tính</div>
+                    </div>
+                    <div class="gamelq">
+                        <div class="gamelq_pic"></div>
+                        <div class="gamelq_name fontfit">Stekllarium</div>
+                        <div class="gamelq_intro">Khám phá vũ trụ trên máy tính</div>
+                    </div>
+                    <div class="gamelq">
+                        <div class="gamelq_pic"></div>
+                        <div class="gamelq_name fontfit">Stekllarium</div>
+                        <div class="gamelq_intro">Khám phá vũ trụ trên máy tính</div>
+                    </div>
+                    <div class="gamelq">
+                        <div class="gamelq_pic"></div>
+                        <div class="gamelq_name fontfit">Stekllarium</div>
+                        <div class="gamelq_intro">Khám phá vũ trụ trên máy tính</div>
+                    </div>
+                    <div class="gamelq">
+                        <div class="gamelq_pic"></div>
+                        <div class="gamelq_name fontfit">Stekllarium</div>
+                        <div class="gamelq_intro">Khám phá vũ trụ trên máy tính</div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="logo logoFace"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i>     Facebook</div>
+            <div class="logo logoTwitter"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i>     Twitter</div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/707e068fea.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
